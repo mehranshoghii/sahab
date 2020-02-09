@@ -22,6 +22,60 @@ body{
     right: 54%;
 }
 
+p{
+    font-family: "kalame";
+    font-size : 16px;
+}
+p > strong{
+    color: white;
+    font-family: "kalame";
+    font-size: 32px;
+}
+.title_1{
+    position: absolute;
+    top : 11%;
+    right: 64%;
+}
+.p1{
+    color : white ;
+    position: absolute;
+    top: 14%;
+    right: 64%;
+}
+.title_2{
+    position: absolute;
+    top : 32.6%;
+    right: 69.7%;
+}
+.p2{
+    color : white ;
+    position: absolute;
+    top: 35%;
+    right: 69.7%;
+}
+.title_3{
+    position: absolute;
+    top : 51.8%;
+    right: 69.7%;
+}
+.p3{
+    color : white ;
+    position: absolute;
+    top: 54.8%;
+    right: 69.7%;
+}
+.title_4{
+    position: absolute;
+    top : 74%;
+    right: 64%;
+}
+.p4{
+    color : white ;
+    position: absolute;
+    top: 76.2%;
+    right: 64%;
+}
+
 .logopic{
     position: absolute;
     top : 18%;
