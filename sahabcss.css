@@ -2,6 +2,10 @@
     font-family: "kalame";
     src: url('./fonts/KalamehWeb/woff/KalamehWeb_Black.woff');
 }
+@font-face{
+    font-family: "kalame_bold";
+    src: url('./fonts/KalamehWeb/woff/KalamehWeb_Bold.woff');
+}
 body{
     overflow-y: auto;
 }
@@ -84,19 +88,20 @@ p > strong{
 }
 
 .titlepage_1{
-    font-size: 27px;
+    font-size: 29.8px;
     color : white;
-    font-family: "kalame";
+    font-family: "kalame_Bold";
     position: absolute;
-    top : 40%;
+    top : 38.6%;
     right: 11%;
+
 }
 .username_input{
     font-family: "kalame";
     color: white;
     font-size: 20px;
     background : none;
-    background-image: url('../pics/usericon.png');
+    background-image: url('./pics/usericon.png');
     background-size: 16px;
     background-position: right;
     background-repeat: no-repeat;
@@ -119,12 +124,11 @@ p > strong{
     color: white;
     font-size: 20px;
     background : none;
-    background-image: url('../pics/lockicon.png');
+    background-image: url('./pics/lockicon.png');
     background-size: 16px;
     background-position: right;
     background-repeat: no-repeat;
     text-indent : 20px;
-    position: absolute;
     position: absolute;
     top : 58%;
     right : 11%;
@@ -143,7 +147,7 @@ p > strong{
     color: white;
     font-size: 20px;
     background : none;
-    background-image: url('../pics/securityicon.png');
+    background-image: url('./pics/securityicon.png');
     background-size: 16px;
     background-position: right;
     background-repeat: no-repeat;
@@ -162,12 +166,15 @@ p > strong{
     text-indent: 20px;
 }
 ::placeholder {
-    font-family: "kalame";
+    font-family: "kalame_bold";
     color: #B5EDFF;
     font-size: 19px;
   }
 input:focus {
     outline : none;
+}
+input:focus::placeholder{
+    font-size: 0px;
 }
 
 
@@ -185,7 +192,10 @@ input:focus {
     border-radius: 8px;
     background-color: white;
 }
-
+.captchapic{
+    position: relative;
+    width: 100%;
+}
 
 
 .register_button{
@@ -196,21 +206,21 @@ input:focus {
     right : 11%;
     color: black;
     background-color: white;
-    width : 194px;
+    width : 198px;
     height: 50px;
     border : none ;
     border-radius: 25px;
-    box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.01);
 }
 .signup_button{
     font-family: "kalame";
     font-size: 24px;
     position: absolute;
     top :78%;
-    right: 24.6%;
+    right: 24.3%;
     color: black;
     background-color: #2ECCFA;
-    width : 194px;
+    width : 198px;
     height: 50px;
     border: none;
     border-radius: 25px;
@@ -243,21 +253,21 @@ button:focus{
     .titlepage_1{
         font-size: 96%;
         position: absolute;
-        top: 14.2%;
+        top: 14%;
         right: 23%;
     }
     .username_input{
-        font-family: "kalame";
+        font-family: "kalame_Bold";
         color: white;
-        font-size: 94%px;
+        font-size: 94%;
         background : none;
-        background-image: url('../pics/usericon.png');
+        background-image: url('./pics/usericon.png');
         background-size: 12px;
         background-position: right;
         background-repeat: no-repeat;
         text-indent : 20px;
         position: absolute;
-        top : 18.2%;
+        top : 18%;
         right : 24%;
         width : 56%;
         height: 34px;
@@ -265,11 +275,11 @@ button:focus{
         border-bottom: solid 2px white;
     }
     .password_input{
-        font-family: "kalame";
+        font-family: "kalame_Bold";
         color: white;
         font-size: 94%;
         background : none;
-        background-image: url('../pics/lockicon.png');
+        background-image: url('./pics/lockicon.png');
         background-size: 12px;
         background-position: right;
         background-repeat: no-repeat;
@@ -283,17 +293,17 @@ button:focus{
         border : none ;
         border-bottom: solid 2px white;
     }
-::placeholder {
-            font-family: "kalame";
+::placeholder {es
+            font-family: "kalame_Bold";
             color: #B5EDFF;
             font-size: 64%;}
 
             .capcha_input{
-                font-family: "kalame";
+                font-family: "kalame_Bold";
                 color: white;
                 font-size: 94%;
                 background : none;
-                background-image: url('../pics/securityicon.png');
+                background-image: url('./pics/securityicon.png');
                 background-size: 12px;
                 background-position: right;
                 background-repeat: no-repeat;
