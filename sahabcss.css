@@ -361,7 +361,7 @@ button:focus{
     .register_button{
         font-family: "kalame";
         font-size: 82%;
-        position: initial;
+        position: relative;
         color: black;
         background-color: white;
         width :27%;
@@ -375,7 +375,7 @@ button:focus{
     .signup_button{
         font-family: "kalame";
         font-size: 82.46%;
-        position: initial;
+        position: relative;
         color: black;
         background-color: #2ECCFA;
         width : 27%;
