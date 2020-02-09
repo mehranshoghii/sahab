@@ -293,7 +293,7 @@ button:focus{
         border : none ;
         border-bottom: solid 2px white;
     }
-::placeholder {es
+::placeholder {
             font-family: "kalame_Bold";
             color: #B5EDFF;
             font-size: 64%;}
@@ -374,7 +374,7 @@ button:focus{
     }
     .title_1{
         position: absolute;
-        top : 62%;
+        top : 50.8%;
         right: 28%;
     }
     .p1{
