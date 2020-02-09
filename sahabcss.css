@@ -177,8 +177,6 @@ input:focus::placeholder{
     font-size: 0px;
 }
 
-
-
 .captcha_box{
     font-family: "kalame";
     border: none;
@@ -239,9 +237,6 @@ button:focus{
     }
     .mainpic_1{
        visibility: hidden;
-        /* transform: rotate(-90deg);
-        width: 100%;
-        height: 100%; */
     }
     .mainpic_1_1{
         visibility: visible;
@@ -460,12 +455,4 @@ button:focus{
    .mainpic_2{
         display: none;
     }
-    /* .mainpic_2_2{
-        width: 60%;
-        z-index: 3399;
-    } */
-    /* input:focus.footer{
-        display: none;
-    } */
-
 }
