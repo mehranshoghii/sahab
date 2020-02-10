@@ -7,9 +7,13 @@
     src: url('./fonts/KalamehWeb/woff/KalamehWeb_Bold.woff');
 }
 body{
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 .mainpic_1_1{
+    width: 0px;
+    visibility: hidden;
+}
+.mainpic_1_1_1{
     width: 0px;
     visibility: hidden;
 }
@@ -21,8 +25,8 @@ body{
 
 .mainpic_2{
     position: absolute;
-    width : 700px;
-    top : 12%;
+    width : 830px;
+    top : 11.4%;
     right: 54%;
 }
 
@@ -48,35 +52,35 @@ p > strong{
 }
 .title_2{
     position: absolute;
-    top : 32.6%;
+    top : 32%;
     right: 69.7%;
 }
 .p2{
     color : white ;
     position: absolute;
-    top: 35%;
+    top: 34.4%;
     right: 69.7%;
 }
 .title_3{
     position: absolute;
-    top : 51.8%;
+    top : 50.8%;
     right: 69.7%;
 }
 .p3{
     color : white ;
     position: absolute;
-    top: 54.8%;
+    top: 53.8%;
     right: 69.7%;
 }
 .title_4{
     position: absolute;
-    top : 74%;
+    top : 70.2%;
     right: 64%;
 }
 .p4{
     color : white ;
     position: absolute;
-    top: 76.2%;
+    top: 73.8%;
     right: 64%;
 }
 
@@ -182,7 +186,7 @@ input:focus::placeholder{
     border: none;
     position: absolute;
     top : 68.6%;
-    right : 29%;
+    right : 25.38%;
     width : 124px;
     height: 38px;
     text-align: center;
@@ -204,7 +208,7 @@ input:focus::placeholder{
     right : 11%;
     color: black;
     background-color: white;
-    width : 198px;
+    width : 10.2%;
     height: 50px;
     border : none ;
     border-radius: 25px;
@@ -215,10 +219,10 @@ input:focus::placeholder{
     font-size: 24px;
     position: absolute;
     top :78%;
-    right: 24.3%;
+    right: 21.66%;
     color: black;
     background-color: #2ECCFA;
-    width : 198px;
+    width : 10.2%;
     height: 50px;
     border: none;
     border-radius: 25px;
@@ -231,9 +235,10 @@ button:focus{
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 980px) {
     html , body{
-        height : 100%
+        height : 100%;
+        overflow-y: visible;
     }
     .mainpic_1{
        visibility: hidden;
@@ -405,6 +410,7 @@ button:focus{
     .mainpic_1_1_1{
         position: initial;
         width: 100%;
+        visibility: visible;
     }
     .title_1{
         position: initial;
