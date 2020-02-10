@@ -7,7 +7,7 @@
     src: url('./fonts/KalamehWeb/woff/KalamehWeb_Bold.woff');
 }
 body{
-    overflow-y: visible;
+    overflow-y: hidden;
 }
 .mainpic_1_1{
     width: 0px;
@@ -29,12 +29,13 @@ body{
     top : 11.4%;
     right: 54%;
 }
+.footer42{display: none;}
+.yellow2{display: none;}
+.purple2{display: none;}
 
 
 
-
-
-.footer{
+.footer1{
     border: none;
     position: absolute;
     top: 0%;
@@ -43,23 +44,63 @@ body{
     /* min-width: 800px; */
     /* min-width: 840px;
     max-width: 860px; */
-    border : solid 2px gold;
+
     margin-top: 5.2%;
+    margin-left: 4%;
+}
+.footer2{
+    border: none;
+    position: absolute;
+    top: 0%;
+    left : 0%;
+    width : 44%;
+    /* min-width: 800px; */
+    /* min-width: 840px;
+    max-width: 860px; */
+
+    margin-top: 13%;
+    margin-left: 4%;
+}
+.footer3{
+    border: none;
+    position: absolute;
+    top: 0%;
+    left : 0%;
+    width : 44%;
+    /* min-width: 800px; */
+    /* min-width: 840px;
+    max-width: 860px; */
+ 
+    margin-top: 23.3%;
+    margin-left: 4%;
+}
+.footer4{
+    border: none;
+    position: absolute;
+    top: 0%;
+    left : 0%;
+    width : 44%;
+    height: auto;
+    margin-top: 33.2%;
     margin-left: 4%;
 }
 .colors{
     width : 84%;
+    margin-top: 0%;
+
 
 }
+
 p{
     font-family: "kalame";
-    font-size : 100%;
+    font-size : 0.92vw;
+    position: fixed;
     
 }
 p > strong{
     color: white;
     font-family: "kalame";
-    font-size: 200%;
+    font-size: 180%;
 }
 .orange{
     margin-top: 0%;
@@ -103,7 +144,7 @@ p > strong{
 .p3{
     color : white ;
     position: initial;
-    margin-top: -3.6%;
+    margin-top: -3.7%;
     margin-right: 34.8%;
 }
 .cyan{
@@ -117,7 +158,7 @@ p > strong{
 .p4{
     color : white ;
     position: initial;
-    margin-top: -3.6%;
+    margin-top: -3.9%;
     margin-right: 22%;
 }
 
@@ -128,15 +169,15 @@ p > strong{
 
 
 
-.form{
+.form1{
     border: none;
-    width : 23%; 
+    width : 26%; 
     /* height: 700px; */
     /* max-height: 560px;
     max-width: 370px; */
     /* min-width: 500px;
     max-width: 520px; */
-    height: 80%;
+    height: auto;
     
     z-index: 3333;
     position: absolute;
@@ -144,7 +185,113 @@ p > strong{
     right: 0%;
     margin-top: 7%;
     margin-right: 6.6%;
-    border: solid 3px red;
+ 
+}
+.form2{
+    width : 26%; 
+    height: auto;
+    z-index: 3333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 13.6%;
+    margin-right: 6.6%;
+}
+.form3{
+    width : 26%; 
+    /* height: 700px; */
+    /* max-height: 560px;
+    max-width: 370px; */
+    /* min-width: 500px;
+    max-width: 520px; */
+    height: 60%;
+    
+    z-index: 3333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 23.2%;
+    margin-right: 6.6%;
+}
+.form4{
+    width : 26%; 
+    /* height: 700px; */
+    /* max-height: 560px;
+    max-width: 370px; */
+    /* min-width: 500px;
+    max-width: 520px; */
+    height: 60%;
+    
+    z-index: 3333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 28%;
+    margin-right: 6.6%;
+}
+.form5{
+    width : 26%; 
+    /* height: 700px; */
+    /* max-height: 560px;
+    max-width: 370px; */
+    /* min-width: 500px;
+    max-width: 520px; */
+    height: 60%;
+    
+    z-index: 3333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 32.8%;
+    margin-right: 6.6%;
+}
+.form6{
+    width : 26%; 
+    /* height: 700px; */
+    /* max-height: 560px;
+    max-width: 370px; */
+    /* min-width: 500px;
+    max-width: 520px; */
+    height: 60%;
+    
+    z-index: 3333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 36%;
+    margin-right: 6.6%;
+}
+.form7{
+    width : 26%; 
+    /* height: 700px; */
+    /* max-height: 560px;
+    max-width: 370px; */
+    /* min-width: 500px;
+    max-width: 520px; */
+    height: 60%;
+    
+    z-index: 3333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 37%;
+    margin-right: 6.6%;
+}
+.form8{
+    width : 26%; 
+    /* height: 700px; */
+    /* max-height: 560px;
+    max-width: 370px; */
+    /* min-width: 500px;
+    max-width: 520px; */
+    height: 60%;
+    
+    z-index: 3333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 36.52%;
+    margin-right: 19.3%;
 }
 .logopic{
     position: initial;
@@ -155,7 +302,7 @@ p > strong{
 }
 
 .titlepage_1{
-    font-size: 170%;
+    font-size: 1.87vw;
     color : white;
     font-family: "kalame_Bold";
     position: initial;
@@ -241,7 +388,7 @@ p > strong{
 ::placeholder {
     font-family: "kalame_bold";
     color: #B5EDFF;
-    font-size: 19px;
+    font-size: 1vw;
   }
 input:focus {
     outline : none;
@@ -255,7 +402,7 @@ input:focus::placeholder{
     border: none;
     position: initial;
     width : 25.8%;
-    height: 38px;
+    height: 7%;
     text-align: center;
     padding-top: 10px;
     border-radius: 8px;
@@ -275,12 +422,12 @@ input:focus::placeholder{
 
 .register_button{
     font-family: "kalame";
-    font-size: 140%;
+    font-size: 1.22vw;
     position: initial;
     color: black;
     background-color: white;
     width : 48.5%;
-    height: 6.8%;
+    height: 8.8%;
     border : none ;
     border-radius: 25px;
     box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.01);
@@ -289,12 +436,12 @@ input:focus::placeholder{
 }
 .signup_button{
     font-family: "kalame";
-    font-size: 140%;
+    font-size: 1.22vw;;
     position: initial
     color: black;
     background-color: #2ECCFA;
     width : 48.5%;
-    height: 6.8%;
+    height: 8.8%;
     border: none;
     border-radius: 25px;
     box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
@@ -315,7 +462,7 @@ button:focus{
         overflow-y: visible;
     }
     .mainpic_1{
-       visibility: hidden;
+       display: none;
     }
     .mainpic_1_1{
         visibility: visible;
@@ -325,254 +472,306 @@ button:focus{
         width: 100%;
         z-index: -44;
     }
-
-
-
-
-    .form{
-        min-width: initial;
-        max-width: initial;
-        min-height:100%;
-        width : 100%;
-        height: 50%;
+    
+    .form1{
+        width : 52%; 
+        height: auto;
+        z-index: 3333;
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-right: 0px;
-        border : none ;
-        margin-top: 2%;
-        margin-bottom: -50%;
-        padding-bottom: 20px;
+        margin-top: 10%;
+        margin-right: 22.6%;
     }
-    .logopic{
-        
-        width: 53.8%;
+    .form2{
+        width : 56%;
+        height : auto;
+        z-index: 3333;
         position: initial;
-        margin-right: 22.12%;
-        margin-top: 5.4%;
-    
+        margin-top: -163%;
+        margin-right: 22.6%;
+        margin-bottom: initial;
     }
     .titlepage_1{
-        font-size: 94%;
+        font-size: 3.77vw;
         position: initial;
-        margin-right: 22%;
-        margin-top: 7.6%;
+        margin-right: initial;
+        margin-top: initial;
+        margin-bottom: initial;
+        
     }
+    .form3{
+        
+        width : 52%; 
+        height: auto;
+        z-index: 3333;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin-top: 42.2%;
+        margin-right: 22.6%;
+    }
+    ::placeholder {
+        font-family: "kalame_Bold";
+        color: #B5EDFF;
+        font-size: 2.6vw}
     .username_input{
         font-family: "kalame_Bold";
         color: white;
-        font-size: 94%;
+        font-size: 4.6vw;
         background : none;
         background-image: url('./pics/usericon.png');
-        background-size: 12px;
+        background-size: 3vw;
         background-position: right;
         background-repeat: no-repeat;
-        text-indent : 20px;
+        text-indent : 4vw;
         position: initial;
-        width : 54%;
-        height: 34px;
-        border : none ;
+        width : 100%;
+        height: auto;
         border-bottom: solid 2px white;
-        margin-right: 22%;
-        margin-top: -2%;
+        margin-right:initial;
+        margin-top: initial;
+        margin-bottom: 0%;
+    }
+    .form4{
+        
+        width : 52%; 
+        height: auto;
+        z-index: 3333;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin-top: 52%;
+        margin-right: 22.6%
     }
     .password_input{
         font-family: "kalame_Bold";
         color: white;
-        font-size: 94%;
+        font-size: 4.6vw;
         background : none;
         background-image: url('./pics/lockicon.png');
-        background-size: 12px;
+        background-size: 3vw;
         background-position: right;
         background-repeat: no-repeat;
-        text-indent : 20px;
+        text-indent : 4vw;
         position: absolute;
         position: initial;
-        width : 54%;
-        height: 34px;
+        width : 100%;
+        height: auto;
+        border-bottom: solid 2px white;
+        margin-right: initial;
+        margin-top: initial;
+    }
+    .form5{
+        width : 52%; 
+        height: auto;
+        z-index: 3333;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin-top: 60.8%;
+        margin-right: 22.6%;
+    }
+    .capcha_input{
+        font-family: "kalame_Bold";
+        color: white;
+        font-size: 4.6vw;
+        background : none;
+        background-image: url('./pics/securityicon.png');
+        background-size: 3vw;
+        background-position: right;
+        background-repeat: no-repeat;
+        text-indent : 4vw;
+        position: absolute;
+        position: initial;
+        width : 64%;
+        height: auto;
         border : none ;
         border-bottom: solid 2px white;
-        margin-right: 22%;
-        margin-top: -1%;
+        margin-right: initial;
+        margin-top: initial;
+    } 
+    .form6{
+        width : 18%; 
+        height: 1%;
+        z-index: 3333;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin-top: 60%;
+        margin-right: 56.8%;
     }
-::placeholder {
-            font-family: "kalame_Bold";
-            color: #B5EDFF;
-            font-size: 64%;}
-
-            .capcha_input{
-                font-family: "kalame_Bold";
-                color: white;
-                font-size: 94%;
-                background : none;
-                background-image: url('./pics/securityicon.png');
-                background-size: 12px;
-                background-position: right;
-                background-repeat: no-repeat;
-                text-indent : 20px;
-                position: absolute;
-                position: initial;
-                width : 34%;
-                height: 34px;
-                border : none ;
-                border-bottom: solid 2px white;
-                margin-right: 22%;
-                margin-top: -1%;
-            } 
-            .captcha_box{
-                font-family: "kalame";
-                border: none;
-                position: initial;
-                width : 18%;
-                height: 18px;
-                text-align: center;
-                padding-top: 10px;
-                border-radius: 2px;
-                background-color: white;
-                margin-top: -6.6%;
-                margin-right: 58%;
-            }
-            /* .captchapic{
-                position: relative;
-                width: 100%;
-            } */
+    .captcha_box{
+        font-family: "kalame";
+        border: none;
+        position: initial;
+        width : 100%;
+        height: 80%;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 2px;
+        background-color: white;
+        margin-top:initial;
+        margin-right: initial;
+    }
+    .captchapic{
+        position: relative;
+        width: 100%;
+    }
+    .form7{
+        
+        width : 25%; 
+        height: 3.1%;
+        z-index: 3333;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin-top: 72%;
+        margin-right:22.6%;
+    }
     .register_button{
         font-family: "kalame";
-        font-size: 12px;
+        font-size: 3.4vw;
         position: initial;
         color: black;
         background-color: white;
-        width : 26.9%;
-        height: 38px;
+        width : 100%;
+        height: 100%;
         border : none ;
         border-radius: 25px;
         box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
-        margin-top: 4.6%;
-        margin-right: 22%;
+        margin-top: initial;
+        margin-right: initial;
+    }
+    .form8{
+        width : 25%; 
+        height: 3.1%;
+        z-index: 3333;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin-top: 72%;
+        margin-right: 48.2%;
     }
     .signup_button{
         font-family: "kalame";
-        font-size: 12px;
+        font-size: 3.2vw;
         position: initial;
         color: black;
         background-color: #2ECCFA;
-        width : 26.9%;
-        height: 38px;
+        width : 100%;
+        height: 100%;
         border: none;
         border-radius: 25px;
         box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
-        margin-top: 4.6%;
-        margin-bottom: 10%;
+        margin-top: initial;
+        margin-bottom: initial;
         
     } 
-
-
-
-
-
-    p{
-        line-height: 10px;
-        font-family: "kalame";
-        font-size : 9px;
+    .colors{
+        width : 100%;
+        margin-top: initial;
+    
+    
     }
-    p > strong{
-        color: white;
-        font-family: "kalame";
-        font-size: 18px;
-    }
-    .footer{
-        width: 100%;
-        height: 50%;
-        position: relative;
-        margin-top: 64%;
 
-        border: none;
-        
-        top: initial;
-        left : initial;
-        width : initial;
-        /* min-width: 46%; */
-        /* min-width: 840px;
-        max-width: 860px; */
-        max-height: initial;
-        margin-top: 64%;
+    .footer1{
+        position: initial;
+        width : 84%;
+        margin-top: 110.2%;
+        margin-right : 6.8%;
         margin-left: initial;
-        min-width: initial;
-        max-width: initial;
-        
     }
     .orange{
-        visibility: hidden;
-        width: 0%;
-        display: none;
-    }
-    .yellow{
-        visibility: hidden;
-        width: 0%;
-        display: none;
-    }
-    .purple{
-        visibility: hidden;
-        width: 0%;
-        display: none;
-    }
-    .cyan{
-        visibility: hidden;
-        width: 0%;
-        display: none;
-    }
-    .mainpic_1_1_1{
-        position: initial;
         width: 100%;
-        visibility: visible;
+        position: initial;
+        margin-top: initial; 
     }
     .title_1{
         position: initial;
-        margin-top: -98.8%;
+        margin-top: -25%;
         margin-right: 25%;
+        font-size: 2.7vw;
     }
     .p1{
         color : white ;
         position: initial;
-        margin-top: -4.6%;
+        margin-top: -6.2%;
         margin-right: 25%;
+        font-size: 2.3vw;
+    }
+    .footer2{
+        position: initial;
+        width : 84%;
+        margin-top: 2%;
+        margin-right : 6.8%;
+    }
+    .yellow{display: none;}
+    .yellow2{
+        width: 100%;
+        position: initial;
+        margin-top: initial;
     }
     .title_2{
         position: initial;
-        margin-top: 12%;
+        margin-top: -25%;
         margin-right: 25%;
+        font-size: 2.7vw;
     }
     .p2{
         color : white ;
         position: initial;
-        margin-top: -3%;
+        margin-top: -6.2%;
         margin-right: 25%;
+        font-size: 2.3vw;
+    }
+    .footer3{
+        position: initial;
+        width :84%;
+        margin-top: 2%;
+        margin-right: 6.8%;
+    }
+    .purple{display: none;}
+    .purple2{
+        width: 100%;
+        position: initial;
+        margin-top: initial;
     }
     .title_3{
         position: initial;
-        margin-top: 11%;
+        margin-top: -26.4%;
         margin-right: 25%;
+        font-size: 2.7vw;
     }
     .p3{
         color : white ;
         position: initial;
-        margin-top: -3%;
+        margin-top: -6.6%;
         margin-right: 25%;
+        font-size: 2.3vw;
     }
-    .title_4{
+    .footer4{display: none;}
+    .footer42{
         position: initial;
-        margin-top: 8.4%;
-        margin-right: 25%;
+        width : 84%;
+        height: auto;
+        margin-top: 2%;
+        margin-right: 6.8%;
     }
-    .p4{
+    .cyan2{
+        width : 100%
+    }
+    .title_42{
+        position: initial;
+        margin-top: -25.8%;
+        margin-right: 25%;
+        font-size: 2.7vw;
+    }
+    .p42{
         color : white ;
         position: initial;
-        margin-top: -4.4%;
+        margin-top: -7%;
         margin-right: 25%;
-    }
-
-
-   .mainpic_2{
-        display: none;
+        font-size: 2.3vw; 
     }
 }
