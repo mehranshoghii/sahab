@@ -364,7 +364,7 @@ button:focus{
         color: black;
         background-color: white;
         width : 27%;
-        height: 34px;
+        height: 38px;
         border : none ;
         border-radius: 25px;
         box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
@@ -378,7 +378,7 @@ button:focus{
         color: black;
         background-color: #2ECCFA;
         width : 27%;
-        height: 28px;
+        height: 38px;
         border: none;
         border-radius: 25px;
         box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
