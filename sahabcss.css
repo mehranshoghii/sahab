@@ -7,7 +7,7 @@
     src: url('./fonts/KalamehWeb/woff/KalamehWeb_Bold.woff');
 }
 body{
-    overflow-y: hidden;
+    overflow-y: visible;
 }
 .mainpic_1_1{
     width: 0px;
@@ -41,9 +41,9 @@ body{
     left : 0%;
     width : 44%;
     /* min-width: 800px; */
-    min-width: 840px;
-    max-width: 860px;
-    
+    /* min-width: 840px;
+    max-width: 860px; */
+    border : solid 2px gold;
     margin-top: 5.2%;
     margin-left: 4%;
 }
