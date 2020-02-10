@@ -459,7 +459,9 @@ button:focus{
 @media only screen and (max-width: 980px) {
     html , body{
         height : 100%;
-        overflow-y: hidden;
+        min-height: 100px;
+        max-height: 100px;
+        overflow-y: visible;
     }
     .mainpic_1{
        display: none;
@@ -483,7 +485,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 10%;
+        margin-top: 6%;
         margin-right: 22.6%;
     }
     .form2{
@@ -491,7 +493,7 @@ button:focus{
         height : auto;
         z-index: 3333;
         position: initial;
-        margin-top: -170%;
+        margin-top: -172%;
         margin-right: 22.6%;
         margin-bottom: initial;
     }
@@ -511,7 +513,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 42.2%;
+        margin-top: 41.2%;
         margin-right: 22.6%;
     }
     ::placeholder {
@@ -544,7 +546,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 52%;
+        margin-top: 50.8%;
         margin-right: 22.6%
     }
     .password_input{
@@ -572,7 +574,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 60.8%;
+        margin-top: 59.8%;
         margin-right: 22.6%;
     }
     .capcha_input{
@@ -601,7 +603,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 60%;
+        margin-top: 59%;
         margin-right: 56.8%;
     }
     .captcha_box{
@@ -629,7 +631,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 70.8%;
+        margin-top: 69.8%;
         margin-right:22.6%;
     }
     .register_button{
@@ -653,7 +655,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 70.8%;
+        margin-top: 69.8%;
         margin-right: 49.8%;
     }
     .signup_button{
