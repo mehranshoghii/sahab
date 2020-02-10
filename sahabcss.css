@@ -29,7 +29,7 @@ body{
     top : 11.4%;
     right: 54%;
 }
-.footer42{display: none;}
+.cyan2{display: none;}
 .yellow2{display: none;}
 .purple2{display: none;}
 
@@ -472,6 +472,9 @@ button:focus{
         width: 100%;
         z-index: -44;
     }
+    .footer42{ display: initial;}
+    .yellow2{display: initial;}
+    .purple2{display: initial;}
     
     .form1{
         width : 52%; 
@@ -488,7 +491,7 @@ button:focus{
         height : auto;
         z-index: 3333;
         position: initial;
-        margin-top: -163%;
+        margin-top: -170%;
         margin-right: 22.6%;
         margin-bottom: initial;
     }
@@ -626,7 +629,7 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 72%;
+        margin-top: 70.8%;
         margin-right:22.6%;
     }
     .register_button{
@@ -650,8 +653,8 @@ button:focus{
         position: absolute;
         top: 0%;
         right: 0%;
-        margin-top: 72%;
-        margin-right: 48.2%;
+        margin-top: 70.8%;
+        margin-right: 49.8%;
     }
     .signup_button{
         font-family: "kalame";
@@ -678,7 +681,7 @@ button:focus{
     .footer1{
         position: initial;
         width : 84%;
-        margin-top: 110.2%;
+        margin-top: 120.2%;
         margin-right : 6.8%;
         margin-left: initial;
     }
@@ -703,7 +706,7 @@ button:focus{
     .footer2{
         position: initial;
         width : 84%;
-        margin-top: 2%;
+        margin-top: 5%;
         margin-right : 6.8%;
     }
     .yellow{display: none;}
@@ -728,7 +731,7 @@ button:focus{
     .footer3{
         position: initial;
         width :84%;
-        margin-top: 2%;
+        margin-top: 5%;
         margin-right: 6.8%;
     }
     .purple{display: none;}
@@ -750,24 +753,29 @@ button:focus{
         margin-right: 25%;
         font-size: 2.3vw;
     }
-    .footer4{display: none;}
-    .footer42{
+    .cyan{
+        display: none;
+    }
+
+    .footer4{
+        
         position: initial;
         width : 84%;
         height: auto;
-        margin-top: 2%;
+        margin-top: 4%;
         margin-right: 6.8%;
     }
     .cyan2{
+        display: initial;
         width : 100%
     }
-    .title_42{
+    .title_4{
         position: initial;
         margin-top: -25.8%;
         margin-right: 25%;
         font-size: 2.7vw;
     }
-    .p42{
+    .p4{
         color : white ;
         position: initial;
         margin-top: -7%;
