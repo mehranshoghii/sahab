@@ -30,74 +30,132 @@ body{
     right: 54%;
 }
 
+
+
+
+
+.footer{
+    border: none;
+    position: absolute;
+    top: 0%;
+    left : 0%;
+    width : 44%;
+    /* min-width: 46%; */
+    /* min-width: 840px;
+    max-width: 860px; */
+    max-height: auto;
+    margin-top: 5.2%;
+    margin-left: 4%;
+}
+.colors{
+    width : 84%;
+
+}
 p{
     font-family: "kalame";
-    font-size : 16px;
+    font-size : 100%;
+    
 }
 p > strong{
     color: white;
     font-family: "kalame";
-    font-size: 32px;
+    font-size: 200%;
+}
+.orange{
+    margin-top: 0%;
 }
 .title_1{
-    position: absolute;
-    top : 11%;
-    right: 64%;
+    position:initial;
+    margin-top: -20%;
+    margin-right: 22%;
 }
 .p1{
     color : white ;
-    position: absolute;
-    top: 14%;
-    right: 64%;
+    position: initial;
+    margin-right: 22%;
+    margin-top: -2.8%;
+}
+.yellow{
+    margin-top: 5.6%;
+    margin-right: 14%;
 }
 .title_2{
-    position: absolute;
-    top : 32%;
-    right: 69.7%;
+    position: initial;
+    margin-top: -19.4%;
+    margin-right: 34.8%;
 }
 .p2{
     color : white ;
-    position: absolute;
-    top: 34.4%;
-    right: 69.7%;
+    position: initial;
+    margin-right: 34.8%;
+    margin-top: -2.8%;
+}
+.purple{
+    margin-right: 14%;
+    margin-top: 4.4%;
 }
 .title_3{
-    position: absolute;
-    top : 50.8%;
-    right: 69.7%;
+    position: initial;
+    color : black ;
+    margin-top: -20%;
+    margin-right: 34.8%;
 }
 .p3{
     color : white ;
-    position: absolute;
-    top: 53.8%;
-    right: 69.7%;
+    position: initial;
+    margin-top: -3.6%;
+    margin-right: 34.8%;
+}
+.cyan{
+    margin-top: 4%;
 }
 .title_4{
-    position: absolute;
-    top : 70.2%;
-    right: 64%;
+    position: initial;
+    margin-top: -20%;
+    margin-right: 22%;
 }
 .p4{
     color : white ;
-    position: absolute;
-    top: 73.8%;
-    right: 64%;
+    position: initial;
+    margin-top: -3.6%;
+    margin-right: 22%;
 }
 
-.logopic{
+
+
+
+
+
+
+
+.form{
+    border: none;
+    width : 26%;
+    /* min-width: 500px;
+    max-width: 520px; */
+    height: 80%;
+    z-index: 3333;
     position: absolute;
-    top : 18%;
-    right : 11%;
-    width : 400px;
+    top: 0%;
+    right: 0%;
+    margin-top: 7%;
+    margin-right: 8%;
+}
+.logopic{
+    position: initial;
+    width : 80.6%;
+    margin-top: 3%;
+    
+    
 }
 
 .titlepage_1{
-    font-size: 29.8px;
+    font-size: 186%;
     color : white;
     font-family: "kalame_Bold";
-    position: absolute;
-    top : 38.6%;
-    right: 11%;
+    position: initial;
+    margin-top: 24.2%;
+    margin-bottom: 3.2%;
 
 }
 .username_input{
@@ -110,13 +168,14 @@ p > strong{
     background-position: right;
     background-repeat: no-repeat;
     text-indent : 20px;
-    position: absolute;
-    top : 48%;
-    right : 11%;
-    width : 400px;
-    height: 46px;
+    position: initial;
+    width : 80.6%;
+    height: 10%;
     border : none ;
     border-bottom: solid 4px white;
+    margin-top: 0px;
+    margin-bottom: 0%;
+
 }
 .username_input:focus{
     background-image: none;
@@ -133,13 +192,13 @@ p > strong{
     background-position: right;
     background-repeat: no-repeat;
     text-indent : 20px;
-    position: absolute;
-    top : 58%;
-    right : 11%;
-    width : 400px;
-    height: 46px;
+    position: initial;
+    width : 80.6%;
+    height: 10%;
     border : none ;
     border-bottom: solid 4px white;
+    margin-top: 0px;
+    margin-bottom: 0%;
 
 }
 .password_input:focus{
@@ -157,13 +216,18 @@ p > strong{
     background-repeat: no-repeat;
     text-indent : 20px;
     position: absolute;
-    position: absolute;
-    top : 68%;
-    right: 11%;
-    width : 260px;
-    height: 46px;
+    position: initial;
+    width : 52.4%;
+    height: 10%;
     border : none ;
     border-bottom: solid 4px white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.captchagroup{
+    border: solid 2px red;
 }
 .capcha_input:focus{
     background-image: none;
@@ -184,15 +248,19 @@ input:focus::placeholder{
 .captcha_box{
     font-family: "kalame";
     border: none;
-    position: absolute;
-    top : 68.6%;
-    right : 25.38%;
-    width : 124px;
+    position: initial;
+    width : 25.8%;
     height: 38px;
     text-align: center;
     padding-top: 10px;
     border-radius: 8px;
     background-color: white;
+    margin-top: 20%;
+    margin-right: 30%;
+    margin-top: -6%;
+    margin-right: 55.2%;
+    margin-top: -9.4%;
+    margin-bottom: 0px;
 }
 .captchapic{
     position: relative;
@@ -202,31 +270,29 @@ input:focus::placeholder{
 
 .register_button{
     font-family: "kalame";
-    font-size: 24px;
-    position: absolute;
-    top: 78%;
-    right : 11%;
+    font-size: 140%;
+    position: initial;
     color: black;
     background-color: white;
-    width : 10.2%;
-    height: 50px;
+    width : 40.2%;
+    height: 6.8%;
     border : none ;
     border-radius: 25px;
     box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.01);
+    margin-top: 6.8%;
 }
 .signup_button{
     font-family: "kalame";
-    font-size: 24px;
-    position: absolute;
-    top :78%;
-    right: 21.66%;
+    font-size: 140%;
+    position: initial
     color: black;
     background-color: #2ECCFA;
-    width : 10.2%;
-    height: 50px;
+    width : 40.2%;
+    height: 6.8%;
     border: none;
     border-radius: 25px;
     box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
+    margin-top: 7.8%;
 }
 button:focus{
     outline : none;
@@ -256,12 +322,17 @@ button:focus{
 
 
     .form{
+        min-width: initial;
+        max-width: initial;
         min-height:100%;
         width : 100%;
         height: 50%;
         position: absolute;
         top: 0%;
         right: 0%;
+        margin-right: 0px;
+        border : none ;
+        margin-top: 2%;
         margin-bottom: -50%;
         padding-bottom: 20px;
     }
@@ -363,7 +434,7 @@ button:focus{
         position: initial;
         color: black;
         background-color: white;
-        width : 27%;
+        width : 26.9%;
         height: 38px;
         border : none ;
         border-radius: 25px;
@@ -377,7 +448,7 @@ button:focus{
         position: initial;
         color: black;
         background-color: #2ECCFA;
-        width : 27%;
+        width : 26.9%;
         height: 38px;
         border: none;
         border-radius: 25px;
@@ -406,6 +477,39 @@ button:focus{
         height: 50%;
         position: relative;
         margin-top: 64%;
+
+        border: none;
+        
+        top: initial;
+        left : initial;
+        width : initial;
+        /* min-width: 46%; */
+        /* min-width: 840px;
+        max-width: 860px; */
+        max-height: initial;
+        margin-top: 64%;
+        margin-left: initial;
+        
+    }
+    .orange{
+        visibility: hidden;
+        width: 0%;
+        display: none;
+    }
+    .yellow{
+        visibility: hidden;
+        width: 0%;
+        display: none;
+    }
+    .purple{
+        visibility: hidden;
+        width: 0%;
+        display: none;
+    }
+    .cyan{
+        visibility: hidden;
+        width: 0%;
+        display: none;
     }
     .mainpic_1_1_1{
         position: initial;
@@ -442,7 +546,7 @@ button:focus{
     .p3{
         color : white ;
         position: initial;
-        margin-top: -2%;
+        margin-top: -3%;
         margin-right: 25%;
     }
     .title_4{
