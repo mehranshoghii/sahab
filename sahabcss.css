@@ -84,15 +84,17 @@ body{
     margin-top: 33.2%;
     margin-left: 4%;
 }
+.col:hover{
+    opacity: 84%;
+
+}
 .colors{
     width : 84%;
     margin-top: 0%;
-
-
 }
 
 p{
-    font-family: "kalame";
+    font-family: "kalame_bold";
     font-size : 0.92vw;
     position: fixed;
     
@@ -311,20 +313,20 @@ p > strong{
 
 }
 .username_input{
-    font-family: "kalame";
+    font-family: "kalame_Bold";
     color: white;
-    font-size: 20px;
+    font-size:1.58vw;
     background : none;
     background-image: url('./pics/usericon.png');
-    background-size: 16px;
+    background-size: 1vw;
     background-position: right;
     background-repeat: no-repeat;
-    text-indent : 20px;
+    text-indent : 1.2vw;
     position: initial;
     width : 100%;
     height: 10%;
     border : none ;
-    border-bottom: solid 4px white;
+    border-bottom: solid 0.18vw white;
     margin-top: 0px;
     margin-bottom: 0%;
 
@@ -335,44 +337,44 @@ p > strong{
 }
 
 .password_input{
-    font-family: "kalame";
+    font-family: "kalame_Bold";
     color: white;
-    font-size: 20px;
+    font-size: 1.58vw;
     background : none;
     background-image: url('./pics/lockicon.png');
-    background-size: 16px;
+    background-size: 1vw;
     background-position: right;
     background-repeat: no-repeat;
-    text-indent : 20px;
+    text-indent : 1.2vw;
     position: initial;
     width : 100%;
     height: 10%;
     border : none ;
-    border-bottom: solid 4px white;
+    border-bottom: solid 0.18vw white;
     margin-top: 0px;
     margin-bottom: 0%;
 
 }
 .password_input:focus{
     background-image: none;
-    text-indent: 20px;
+    text-indent: 1.3vw;
 }
 .capcha_input{
-    font-family: "kalame";
+    font-family: "kalame_Bold";
     color: white;
-    font-size: 20px;
+    font-size: 1.58vw;
     background : none;
     background-image: url('./pics/securityicon.png');
-    background-size: 16px;
+    background-size: 1.06vw;
     background-position: right;
     background-repeat: no-repeat;
-    text-indent : 20px;
+    text-indent : 1.2vw;
     position: absolute;
     position: initial;
     width : 69.4%;
     height: 10%;
     border : none ;
-    border-bottom: solid 4px white;
+    border-bottom: solid 0.18vw white;
     margin-top: 0px;
     margin-bottom: 0px;
     
@@ -405,7 +407,7 @@ input:focus::placeholder{
     height: 7%;
     text-align: center;
     padding-top: 10px;
-    border-radius: 8px;
+    border-radius: 0.3vw;
     background-color: white;
     margin-top: 20%;
     margin-right: 30%;
@@ -427,9 +429,9 @@ input:focus::placeholder{
     color: black;
     background-color: white;
     width : 48.5%;
-    height: 8.8%;
+    height: 2.88vw;
     border : none ;
-    border-radius: 25px;
+    border-radius: 10vw;
     box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.01);
     margin-top: 6.8%;
     margin-bottom: 0%;
@@ -441,9 +443,9 @@ input:focus::placeholder{
     color: black;
     background-color: #2ECCFA;
     width : 48.5%;
-    height: 8.8%;
+    height: 2.88vw;
     border: none;
-    border-radius: 25px;
+    border-radius: 10vw;
     box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
     margin-top: 7.8%;
     margin-bottom: 0%;
@@ -493,8 +495,8 @@ button:focus{
         height : auto;
         z-index: 3333;
         position: initial;
-        margin-top: -172%;
-        margin-right: 22.6%;
+        margin-top: -180%;
+        margin-right: 21.8%;
         margin-bottom: initial;
     }
     .titlepage_1{
@@ -523,7 +525,7 @@ button:focus{
     .username_input{
         font-family: "kalame_Bold";
         color: white;
-        font-size: 4.6vw;
+        font-size: 4vw;
         background : none;
         background-image: url('./pics/usericon.png');
         background-size: 3vw;
@@ -533,7 +535,7 @@ button:focus{
         position: initial;
         width : 100%;
         height: auto;
-        border-bottom: solid 2px white;
+        border-bottom: solid 0.3vw white;
         margin-right:initial;
         margin-top: initial;
         margin-bottom: 0%;
@@ -552,7 +554,7 @@ button:focus{
     .password_input{
         font-family: "kalame_Bold";
         color: white;
-        font-size: 4.6vw;
+        font-size: 4vw;
         background : none;
         background-image: url('./pics/lockicon.png');
         background-size: 3vw;
@@ -563,7 +565,7 @@ button:focus{
         position: initial;
         width : 100%;
         height: auto;
-        border-bottom: solid 2px white;
+        border-bottom: solid 0.3vw white;
         margin-right: initial;
         margin-top: initial;
     }
@@ -580,7 +582,7 @@ button:focus{
     .capcha_input{
         font-family: "kalame_Bold";
         color: white;
-        font-size: 4.6vw;
+        font-size: 4vw;
         background : none;
         background-image: url('./pics/securityicon.png');
         background-size: 3vw;
@@ -592,7 +594,7 @@ button:focus{
         width : 64%;
         height: auto;
         border : none ;
-        border-bottom: solid 2px white;
+        border-bottom: solid 0.3vw white;
         margin-right: initial;
         margin-top: initial;
     } 
@@ -614,7 +616,7 @@ button:focus{
         height: 80%;
         text-align: center;
         padding-top: 10px;
-        border-radius: 2px;
+        border-radius: 0.3vw;
         background-color: white;
         margin-top:initial;
         margin-right: initial;
@@ -641,9 +643,9 @@ button:focus{
         color: black;
         background-color: white;
         width : 100%;
-        height: 100%;
+        height: 6VW;
         border : none ;
-        border-radius: 25px;
+        border-radius: 10vw;
         box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
         margin-top: initial;
         margin-right: initial;
@@ -665,9 +667,9 @@ button:focus{
         color: black;
         background-color: #2ECCFA;
         width : 100%;
-        height: 100%;
+        height: 6VW;
         border: none;
-        border-radius: 25px;
+        border-radius: 10vw;
         box-shadow: 2px 6px 8px 8px  rgba(0, 0, 0, 0.05);
         margin-top: initial;
         margin-bottom: initial;
@@ -684,7 +686,7 @@ button:focus{
         position: initial;
         width : 84%;
         margin-top: 120.2%;
-        margin-right : 6.8%;
+        margin-right : 8.5%;
         margin-left: initial;
     }
     .orange{
@@ -695,21 +697,21 @@ button:focus{
     .title_1{
         position: initial;
         margin-top: -25%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.7vw;
     }
     .p1{
         color : white ;
         position: initial;
         margin-top: -6.2%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.3vw;
     }
     .footer2{
         position: initial;
         width : 84%;
-        margin-top: 5%;
-        margin-right : 6.8%;
+        margin-top: 7.6%;
+        margin-right : 8.5%;
     }
     .yellow{display: none;}
     .yellow2{
@@ -720,21 +722,21 @@ button:focus{
     .title_2{
         position: initial;
         margin-top: -25%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.7vw;
     }
     .p2{
         color : white ;
         position: initial;
         margin-top: -6.2%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.3vw;
     }
     .footer3{
         position: initial;
         width :84%;
-        margin-top: 5%;
-        margin-right: 6.8%;
+        margin-top: 7.6%;
+        margin-right: 8.5%;
     }
     .purple{display: none;}
     .purple2{
@@ -745,15 +747,16 @@ button:focus{
     .title_3{
         position: initial;
         margin-top: -26.4%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.7vw;
     }
     .p3{
         color : white ;
         position: initial;
         margin-top: -6.6%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.3vw;
+        line-height: 2.4vw;
     }
     .cyan{
         display: none;
@@ -764,8 +767,8 @@ button:focus{
         position: initial;
         width : 84%;
         height: auto;
-        margin-top: 4%;
-        margin-right: 6.8%;
+        margin-top: 7.6%;
+        margin-right: 8.5%;
     }
     .cyan2{
         display: initial;
@@ -774,14 +777,15 @@ button:focus{
     .title_4{
         position: initial;
         margin-top: -25.8%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.7vw;
     }
     .p4{
         color : white ;
         position: initial;
         margin-top: -7%;
-        margin-right: 25%;
+        margin-right: 24.4%;
         font-size: 2.3vw; 
+        line-height: 2.4vw;
     }
 }
